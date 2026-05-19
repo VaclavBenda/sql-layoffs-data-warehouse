@@ -24,7 +24,7 @@ CREATE TABLE silver.layoffs (
 	[date] DATE,
 	stage NVARCHAR(100),
 	country NVARCHAR(100),
-	funds_raised_millions INT,
+	funds_raised_millions FLOAT,
 	dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 GO
